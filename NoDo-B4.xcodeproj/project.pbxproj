@@ -13,6 +13,9 @@
 		DE9E380022E241F500826DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9E37FF22E241F500826DC5 /* Assets.xcassets */; };
 		DE9E380322E241F500826DC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9E380222E241F500826DC5 /* Preview Assets.xcassets */; };
 		DE9E380622E241F500826DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9E380422E241F500826DC5 /* LaunchScreen.storyboard */; };
+		DE9E380F22E2424C00826DC5 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E380E22E2424C00826DC5 /* TopView.swift */; };
+		DE9E381222E25B5B00826DC5 /* NoDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E381122E25B5B00826DC5 /* NoDo.swift */; };
+		DE9E381422E274A600826DC5 /* NoDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E381322E274A600826DC5 /* NoDoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DE9E380222E241F500826DC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE9E380522E241F500826DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9E380722E241F500826DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9E380E22E2424C00826DC5 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		DE9E381122E25B5B00826DC5 /* NoDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDo.swift; sourceTree = "<group>"; };
+		DE9E381322E274A600826DC5 /* NoDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		DE9E37F822E241F400826DC5 /* NoDo-B4 */ = {
 			isa = PBXGroup;
 			children = (
+				DE9E381022E25B4A00826DC5 /* Model */,
+				DE9E380D22E2422B00826DC5 /* View */,
 				DE9E37F922E241F400826DC5 /* AppDelegate.swift */,
 				DE9E37FB22E241F400826DC5 /* SceneDelegate.swift */,
 				DE9E37FD22E241F400826DC5 /* ContentView.swift */,
@@ -73,6 +81,23 @@
 				DE9E380222E241F500826DC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE9E380D22E2422B00826DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E380E22E2424C00826DC5 /* TopView.swift */,
+				DE9E381322E274A600826DC5 /* NoDoRow.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE9E381022E25B4A00826DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E381122E25B5B00826DC5 /* NoDo.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9E381422E274A600826DC5 /* NoDoRow.swift in Sources */,
 				DE9E37FA22E241F400826DC5 /* AppDelegate.swift in Sources */,
 				DE9E37FC22E241F400826DC5 /* SceneDelegate.swift in Sources */,
+				DE9E380F22E2424C00826DC5 /* TopView.swift in Sources */,
+				DE9E381222E25B5B00826DC5 /* NoDo.swift in Sources */,
 				DE9E37FE22E241F400826DC5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
